@@ -2,13 +2,14 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
-	<title>React - Bootstrap Theme</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Video Distribution made Simple - MediaNest</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
 	<link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
 
 	<!-- javascript -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -18,6 +19,10 @@
 	<!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+	<link rel="shortcut icon" href="/logo/medianest-square.png">
+	<link rel="apple-touch-icon" href="/logo/medianest-square.png">
+  <link rel="image_src" href="/logo/medianest-square.png">
 </head>
 <body id="home">
 	<header class="navbar navbar-inverse hero" role="banner">
@@ -28,68 +33,49 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 		      	</button>
-      			<a href="index.html" class="navbar-brand">React</a>
+      			<a href="." class="navbar-brand"><img src="logo/medianest-logo-white.png" title="MediaNest"></a>
     		</div>
     		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       			<ul class="nav navbar-nav navbar-right">
       				<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					Home alts <b class="caret"></b>
+        				<a href=".">
+          					Home
           				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="index.html">Home 1 (Current)</a></li>
-							<li><a href="index2.html">Home 2 (Slider)</a></li>
-							<li><a href="index3.html">Home 3 (Off-canvas menu)</a></li>
-				        </ul>
         			</li>
         			<li class="dropdown">
         				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					Showcase <b class="caret"></b>
+          					Features <b class="caret"></b>
           				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="features.html">Features</a></li>
-							<li><a href="services.html">Services</a></li>
+          			<ul class="dropdown-menu">
+									<li><a href="features.html#syndication">Video Syndication</a></li>
+									<li><a href="features.html#suggestion">Title Suggestion</a></li>
+									<li><a href="features.html#analytics">Video Analytics</a></li>
 				        </ul>
         			</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										Use Cases <b class="caret"></b>
+									</a>
+								<ul class="dropdown-menu">
+									<li><a href="seo.html">SEO Agency</a></li>
+									<li><a href="branding.html">Branding</a></li>
+									<li><a href="video-producers.html">Video Producer</a></li>
+								</ul>
+							</li>
         			<li class="dropdown">
-          				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					Pricing <b class="caret"></b>
+          				<a href="pricing.html">
+          					Pricing
           				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="pricing.html">Pricing charts</a></li>
-							<li><a href="charts.html">Comparison tables</a></li>
-				        </ul>
         			</li>
-        			<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					More pages <b class="caret"></b>
-          				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="aboutus.html">About us</a></li>
-							<li><a href="contactus.html">Contact us</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="portfolio-item.html">Portfolio Item</a></li>
-							<li><a href="invoice.html">Invoice page</a></li>
-							<li><a href="timeline.html">Timeline Page</a></li>
-							<li><a href="docs.html">API Documentation</a></li>
-							<li><a href="support.html">Support</a></li>
-							<li><a href="coming-soon.html">Coming Soon</a></li>
-							<li><a href="status.html">Status</a></li>
-							<li><a href="signup.html">Sign Up & Sign In</a></li>
-							<li><a href="signup-rotate.html">Sign Up Miscellaneous</a></li>
-							<li><a href="404.html">404 Page</a></li>
-				        </ul>
-        			</li>
-        			<li class="dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          					Blog <b class="caret"></b>
-          				</a>
-          				<ul class="dropdown-menu">
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="blogpost.html">Blog Post</a></li>
-				        </ul>
-        			</li>
+							<li class="dropdown">
+								<a href="contact.html">
+										Contact
+									</a>
+							</li>
+							<li class="dropdown" id="sign-in">
+								<a href="http://app.medianest.com/users/sign_in" class="button">Sign in</a>
+								<a href="http://app.medianest.com/users/sign_in" class="link">Sign in</a>
+							</li>
       			</ul>
     		</nav>
   		</div>
@@ -98,15 +84,16 @@
 	<div id="hero">
 		<div class="container">
 			<h1 class="hero-text animated fadeInDown">
-				The best interfaces <br />
-				for your web & mobile apps
+				Video Distribution <br />
+				Made Simple
 			</h1>
 			<p class="sub-text animated fadeInDown">
-				Get a complete existing website with great design up and running in no time.
+				Our web app helps you better manage your video assets accross your online channels.
+				Get more views, save time and measure performance.
 			</p>
 			<div class="cta animated fadeInDown">
 				<a href="features.html" class="button-outline">See the tour</a>
-				<a href="signup.html" class="button">Sign up free</a>
+				<a href="pricing.html" class="button">Pricing</a>
 			</div>
 			<div class="img"></div>
 		</div>
@@ -149,7 +136,7 @@
 					<img src="images/feature2.png" class="img-responsive" alt="feature2" />
 				</div>
 			</div>
-		</div>		
+		</div>
 	</div>
 
 	<div id="pricing">
@@ -299,7 +286,7 @@
 							<img src="images/slider/slide2.png" alt="slide2" />
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</div>
@@ -351,7 +338,7 @@
 
 	<div id="cta">
 		<p>
-			Start your free 14 day trial! 
+			Start your free 14 day trial!
 		</p>
 		<a href="signup.html">
 			Sign up for free
