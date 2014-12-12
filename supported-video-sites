@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<title>Web Video Distribution Service List | MediaNest: Online Video Distribution Simplified</title>
+	<meta name="description" content="MediaNest makes uploading your video to Video & Social Media Sites simple.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/brankic.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/isotope.css">
+
+	<!-- javascript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/vendor/jquery.isotope.min.js"></script>
+	<script src="js/vendor/imagesloaded.js"></script>
+	<script src="js/theme.js"></script>
+	<script src="js/gallery.js"></script>
+</head>
+<body id="gallery">
+	<header class="navbar navbar-inverse normal" role="banner">
+  		<div class="container">
+    		<div class="navbar-header">
+		      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+      			<a href="index.html" class="navbar-brand">MediaNest</a>
+    		</div>
+    		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      			<ul class="nav navbar-nav">
+         				<li class="dropdown">
+        				<a href="index.html">
+          					Home
+          				</a>
+        			</li>
+      				<li class="active dropdown">
+        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          					Features <b class="caret"></b>
+          				</a>
+          				<ul class="dropdown-menu">
+									<li><a href="features.html#videodistribution">Video Distribution</a></li>
+									<li><a href="features.html#videoseo">Video SEO</a></li>
+									<li><a href="features.html#videoanalytics">Video Analytics</a></li>
+									<li><a href="features.html#socialanalytics">Social Analytics</a></li>
+				        </ul>
+        			</li>
+                               <li class="dropdown">
+					 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										Solutions <b class="caret"></b>
+									</a>
+					<ul class="dropdown-menu">
+									<li><a href="video-content-creator.html">Content Creators</a></li>
+									<li><a href="video-content-marketing-brands.html">Brands</a></li>
+									<li><a href="video-content-marketing-agency.html">Agencies</a></li>
+					</ul>
+				</li>
+        			<li class="dropdown">
+          				<a href="pricing.html">
+          					Pricing
+          				</a>
+        			</li>
+                        <li class="dropdown">
+					<a href="contact.html">
+						Contact
+					</a>
+				</li>
+      			</ul>
+      			<ul class="nav navbar-nav navbar-right visible-md visible-lg">
+      				<li>
+          				<a href="http://app.medianest.com/users/sign_up?plan=Business" class="button">Sign up free</a>
+        			</li>
+      			</ul>
+    		</nav>
+  		</div>
+	</header>
+
+<div id="showcase">
+		<div class="container">
+			<div class="row header">
+				<div class="col-md-12">
+					<h3>Web Video Distribution to over 30 Video Sites & Social Media Networks</h3>
+				</div>
+				<div class="col-md-12 filtering">
+					<ul id="filters">
+                        <li><a href="#" data-filter="*" class="active">All</a></li>
+                        <li><a href="#" data-filter=".mobile">Video Sites</a></li>
+                        <li><a href="#" data-filter=".devices">Social Networks</a></li>
+                        <li><a href="#" data-filter=".interfaces">International Sites</a></li>
+                        <li><a href="#" data-filter=".web">Niche Sites</a></li>
+                    </ul>
+				</div>
+			</div>
+			<div class="row gallery_container">
+
+
+				<div class="col-md-4 devices">
+					<a class="pic" href="images/sites/twitter.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Twitter
+<br/>Global
+<br/>284 Million Monthly Active Users
+<br/>Brand & User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/twitter.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 devices">
+					<a class="pic" href="images/sites/facebook.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> Facebook
+<br/>Global
+<br/>1.23  Billion Monthly Active Users
+<br/>Branded & User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/facebook.png" class="img-responsive" alt="gallery7" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 devices">
+					<a class="pic" href="images/sites/tagworld.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>TagWorld
+<br/>Global
+<br/>2 Million Users
+<br/User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/tagworld.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/rutube.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>RuTube
+<br/>Russia
+<br/>30 Million Monthly Unique Visitors 
+<br/>User-Generated & Branded Videos
+</p>
+						</div>
+						<img src="images/sites/rutube.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+
+
+				<div class="col-md-4 mobile">
+					<a class="pic" href="images/sites/myvideo-ge.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> MyVideo.Ge
+<br/>Georgian
+<br/>1.3 Million Registered Users
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/myvideo-ge.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+				<div class="col-md-4 mobile web">
+					<a class="pic" href="images/sites/funnyordie.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> FunnyOrDie.com
+<br/>Global
+<br/>User-Generated Videos
+<br/>Professional Comedy Videos
+</p>
+						</div>
+						<img src="images/sites/funnyordie.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/atv-at.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> ATV.at
+<br/>Austria
+<br/>6 Million Users
+</p>
+						</div>
+						<img src="images/sites/atv-at.png" class="img-responsive" alt="gallery1" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/businessworld-de.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>BusinessWorld.de
+<br/>Germany
+<br/>500,000 Users
+<br/>B2B
+</p>
+						</div>
+						<img src="images/sites/businessworld-de.png" class="img-responsive" alt="gallery2" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/clip-vn.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Clip.vn
+<br/>Vietnam
+<br/>3 Million Users
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/clip-vn.png" class="img-responsive" alt="gallery3" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/clonevideos.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> CloneVideos.com
+<br/>Nepal & South East Asia
+</p>
+						</div>
+						<img src="images/sites/clonevideos.png" class="img-responsive" alt="gallery6" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile">
+					<a class="pic" href="images/sites/dailymotion.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> DailyMotion.com
+<br/>Global
+<br/>120 Million Monthly Unique Visitors
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/dailymotion.png" class="img-responsive" alt="DailyMotion.com" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile">
+					<a class="pic" href="images/sites/ebaumsworld.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> eBaumsWorld.com
+<br/>Global
+<br/>22 Million Monthly Unique Visitors
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/ebaumsworld.png" class="img-responsive" alt="gallery5" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/kewego.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> Kewego.com
+<br/>Global with a European Focus
+</p>
+						</div>
+						<img src="images/sites/kewego.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile web">
+					<a class="pic" href="images/sites/open-film.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> Openfilm
+<br/>Global
+<br/>Independent Films
+<br/>7 Million Unique Users
+</p>
+						</div>
+						<img src="images/sites/open-film.png" class="img-responsive" alt="gallery7" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile web">
+					<a class="pic" href="images/sites/liveleak.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span> Live Leak: UK
+<br/>User-Generated Videos
+<br/>Political Videos
+</p>
+						</div>
+						<img src="images/sites/liveleak.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+
+	
+				<div class="col-md-4 mobile web">
+					<a class="pic" href="images/sites/snotr.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Snotr.com
+<br/>Family-Safe, Short & Funny Videos
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/snotr.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/smotri.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Smotri.com
+<br/>Russian
+<br/>4 Million Monthly Unique Users
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/smotri.png" class="img-responsive" alt="gallery7" />
+					</a>
+				</div>
+
+
+
+				<div class="col-md-4 devices">
+					<a class="pic" href="images/sites/tumblr.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Tumblr
+<br/>Global
+<br/>214.3 Million MicroBlogs
+<br/>Brand & User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/tumblr.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/tune-pk.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Tunk.pk
+<br/>Pakistan & South-Asia
+<br/>25 Million Monthly Users
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/tune-pk.png" class="img-responsive" alt="gallery7" />
+					</a>
+				</div>
+
+
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/tu-tv.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Tu.tv
+<br/>Spanish and Latin
+<br/>31 Million Users
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/tu-tv.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/vbox7.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>VBOX7
+<br/>Bulgaria
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/vbox7.png" class="img-responsive" alt="gallery7" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile">
+					<a class="pic" href="images/sites/veoh.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Veoh
+<br/>Global
+<br/>17 Million Unique Visitors
+<br/>User-Generated & Branded Videos
+</p>
+						</div>
+						<img src="images/sites/veoh.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile">
+					<a class="pic" href="images/sites/viddler.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Viddler
+<br/>Online Video Platform
+</p>
+						</div>
+						<img src="images/sites/viddler.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/vidivodo.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Vidivodo
+<br/>Turkey
+</p>
+						</div>
+						<img src="images/sites/vidivodo.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile">
+					<a class="pic" href="images/sites/vimeo.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Vimeo
+<br/>Global
+<br/>100 Million Monthly Unique Visitors
+<br/>Branded & User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/vimeo.png" class="img-responsive" alt="gallery7" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile devices">
+					<a class="pic" href="images/sites/youtube.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>YouTube
+<br/>Global
+<br/>1 Billion Monthly Unique Visitors
+<br/>Branded & User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/youtube.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/youmaker.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>YouMaker
+<br/>China
+<br/>Branded & User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/youmaker.png" class="img-responsive" alt="gallery9" />
+					</a>
+				</div>
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/zideo-nl.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Zideo
+<br/>Netherlands
+<br/>1 Million Monthly Unique Visitors
+<br/>User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/zideo-nl.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile interfaces">
+					<a class="pic" href="images/sites/zie-nl.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>Zie.nl
+<br/>Netherlands
+<br/>774,000 Monthly Unique Visitors
+<br/>Branded & User-Generated Videos
+</p>
+						</div>
+						<img src="images/sites/zie-nl.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+
+				<div class="col-md-4 mobile web">
+					<a class="pic" href="images/sites/stupid-videos.png" data-fluidbox>
+						<div class="layer">
+							<p><span class="brankic-eye"></span>StupidVideos.com
+<br/>Global
+<br/>User-Generated Videos
+<br/>Funny Videos
+</p>
+						</div>
+						<img src="images/sites/stupid-videos.png" class="img-responsive" alt="gallery8" />
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer-white">
+		<div class="container">
+
+
+				<div class="col-sm-4 newsletter">
+					<div class="signup clearfix">
+						<p>
+							Sign up for our newsletter and stay up-to-date on all things video marketing.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 newsletter">
+					<div class="signup clearfix">
+							<form action="//medianest.us4.list-manage.com/subscribe/post?u=68d44015522ea20374a7f3423&amp;id=01f827161c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Your email address" />
+							<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
+							</form>	
+				</div>
+				</div>
+		
+				<div class="col-sm-4 newsletter">
+					<a href="https://twitter.com/MediaNestCom">
+						<img src="images/social/tw.png" alt="Follow us on Twitter" />
+					</a>
+					<a href="http://www.facebook.com/MediaNestCom">
+						<img src="images/social/fb.png" alt="Follow us on Facebook" />
+					</a>
+					<a href="https://www.linkedin.com/company/medianest">
+						<img src="images/social/linked-in.png" alt="Follow us on LinkedIn" />
+					</a>
+				</div>
+			</div>
+			<div class="row credits">
+				<div class="col-md-12">
+					Copyright © 2014. MediaNest
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+        $(function(){
+
+        	// Initialize Isotope plugin for filtering
+            var $container = $('.gallery_container'),
+                  $filters = $("#filters a");
+        
+            $container.imagesLoaded( function(){
+                $container.isotope({
+                    itemSelector : '.col-md-4',
+                    masonry: {
+                        columnWidth: 323
+                    }
+                });
+            });
+
+            // filter items when filter link is clicked
+            $filters.click(function() {
+                $filters.removeClass("active");
+                $(this).addClass("active");
+                var selector = $(this).data('filter');
+                $container.isotope({ filter: selector });
+                return false;
+            });
+        
+        });
+    </script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56300316-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
