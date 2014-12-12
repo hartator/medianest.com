@@ -37,7 +37,7 @@
 <loc>http://medianest.com/non-profit-tools.html</loc>
 </url>
   <url>
-    <loc>http://medianest.com/supported-sites.html</loc> 
+    <loc>http://medianest.com/supported-video-sites.html</loc> 
   </url>
   <url>
     <loc>http://medianest.com/aboutus.html</loc> 
@@ -52,6 +52,6 @@
     <loc>http://app.medianest.com/users/sign_up?plan=Business</loc> 
   </url>
   <url>
-    <loc>http://app.medianest.com/users/sign_up?plan=Business</loc> 
+    <loc>http://app.medianest.com/users/sign_up?plan=Agency</loc> 
   </url>
 </urlset>
