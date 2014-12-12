@@ -20,7 +20,7 @@
 	<script src="js/gallery.js"></script>
 </head>
 <body id="gallery">
-	<header class="navbar navbar-inverse normal" role="banner">
+		<header class="navbar navbar-inverse normal" role="banner">
   		<div class="container">
     		<div class="navbar-header">
 		      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -31,21 +31,22 @@
       			<a href="index.html" class="navbar-brand">MediaNest</a>
     		</div>
     		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      			<ul class="nav navbar-nav">
-         				<li class="dropdown">
+      	<ul class="nav navbar-nav">
+      				<li class="dropdown">
         				<a href="index.html">
           					Home
           				</a>
-        			</li>
-      				<li class="active dropdown">
-        				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        			</li>      				
+                        <li class="active dropdown">
+        				<a href="features.html" class="dropdown-toggle" data-toggle="dropdown">
           					Features <b class="caret"></b>
           				</a>
           				<ul class="dropdown-menu">
-									<li><a href="features.html#videodistribution">Video Distribution</a></li>
+					  				<li><a href="features.html#videodistribution">Video Distribution</a></li>
 									<li><a href="features.html#videoseo">Video SEO</a></li>
 									<li><a href="features.html#videoanalytics">Video Analytics</a></li>
 									<li><a href="features.html#socialanalytics">Social Analytics</a></li>
+	          							<li><a href="supported-video-sites.html">Supported Sites</a></li>
 				        </ul>
         			</li>
                                <li class="dropdown">
@@ -58,11 +59,17 @@
 									<li><a href="video-content-marketing-agency.html">Agencies</a></li>
 					</ul>
 				</li>
+        			
         			<li class="dropdown">
           				<a href="pricing.html">
           					Pricing
           				</a>
         			</li>
+        		 <li class="dropdown">
+					<a href="blog.html">
+						Blog
+					</a>
+				</li>
                         <li class="dropdown">
 					<a href="contact.html">
 						Contact
@@ -70,9 +77,9 @@
 				</li>
       			</ul>
       			<ul class="nav navbar-nav navbar-right visible-md visible-lg">
-      				<li>
-          				<a href="http://app.medianest.com/users/sign_up?plan=Business" class="button">Sign up free</a>
-        			</li>
+	<li class="dropdown" id="sign-in">
+								<a href="http://app.medianest.com/users/sign_in" class="button">Sign-in</a>
+							</li>
       			</ul>
     		</nav>
   		</div>
@@ -106,7 +113,7 @@
 <br/>Brand & User-Generated Videos
 </p>
 						</div>
-						<img src="images/sites/twitter.png" class="img-responsive" alt="gallery9" />
+						<img src="images/sites/twitter.png" class="img-responsive" alt="Upload videos to Twitter" />
 					</a>
 				</div>
 
@@ -120,7 +127,7 @@
 <br/>Branded & User-Generated Videos
 </p>
 						</div>
-						<img src="images/sites/facebook.png" class="img-responsive" alt="gallery7" />
+						<img src="images/sites/facebook.png" class="img-responsive" alt="Upload videos to Facebook" />
 					</a>
 				</div>
 
@@ -134,7 +141,7 @@
 <br/User-Generated Videos
 </p>
 						</div>
-						<img src="images/sites/tagworld.png" class="img-responsive" alt="gallery9" />
+						<img src="images/sites/tagworld.png" class="img-responsive" alt="Upload videos to TagWorld" />
 					</a>
 				</div>
 
@@ -148,7 +155,7 @@
 <br/>User-Generated & Branded Videos
 </p>
 						</div>
-						<img src="images/sites/rutube.png" class="img-responsive" alt="gallery8" />
+						<img src="images/sites/rutube.png" class="img-responsive" alt="Upload videos to RuTube" />
 					</a>
 				</div>
 
@@ -163,7 +170,7 @@
 <br/>User-Generated Videos
 </p>
 						</div>
-						<img src="images/sites/myvideo-ge.png" class="img-responsive" alt="gallery9" />
+						<img src="images/sites/myvideo-ge.png" class="img-responsive" alt="Upload videos to MyVideo.Ge" />
 					</a>
 				</div>
 
@@ -176,7 +183,7 @@
 <br/>Professional Comedy Videos
 </p>
 						</div>
-						<img src="images/sites/funnyordie.png" class="img-responsive" alt="gallery8" />
+						<img src="images/sites/funnyordie.png" class="img-responsive" alt="Upload videos to Funny Or Die" />
 					</a>
 				</div>
 
@@ -189,7 +196,7 @@
 <br/>6 Million Users
 </p>
 						</div>
-						<img src="images/sites/atv-at.png" class="img-responsive" alt="gallery1" />
+						<img src="images/sites/atv-at.png" class="img-responsive" alt="Upload videos to ATV.at" />
 					</a>
 				</div>
 
@@ -203,7 +210,7 @@
 <br/>B2B
 </p>
 						</div>
-						<img src="images/sites/businessworld-de.png" class="img-responsive" alt="gallery2" />
+						<img src="images/sites/businessworld-de.png" class="img-responsive" alt="Upload videos to BusinessWorld.de" />
 					</a>
 				</div>
 
@@ -217,7 +224,7 @@
 <br/>User-Generated Videos
 </p>
 						</div>
-						<img src="images/sites/clip-vn.png" class="img-responsive" alt="gallery3" />
+						<img src="images/sites/clip-vn.png" class="img-responsive" alt="Upload videos to Clip.vn" />
 					</a>
 				</div>
 
@@ -335,7 +342,7 @@
 						<div class="layer">
 							<p><span class="brankic-eye"></span>Tumblr
 <br/>Global
-<br/>214.3 Million MicroBlogs
+<br/>214.3 Million Microblogs
 <br/>Brand & User-Generated Videos
 </p>
 						</div>
@@ -511,6 +518,35 @@
 		</div>
 	</div>
 
+<div id="footer">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-sm-3 copyright">
+				
+				</div>
+				<div class="col-sm-6 menu">
+					<ul>
+	      				<LI>>
+	          				<a href="index.html">Home</a>
+	        			</li>
+                               <li class="active">
+	          				<a href="features.html">Features</a>
+	        			</li>
+	        			<li>
+	          				<a href="pricing.html">Pricing</a>
+	        			</li>
+	        			<li>
+	          				<a href="aboutus.html">About</a>
+	        			</li>
+	        			<li>
+	          				<a href="non-profit-tools.html">Giving Back</a>
+	        			</li>
+	      			</ul>
+				</div>
+
+		</div>
+	</div>
 
 	<div id="footer-white">
 		<div class="container">
@@ -526,10 +562,10 @@
 
 				<div class="col-sm-4 newsletter">
 					<div class="signup clearfix">
-							<form action="//medianest.us4.list-manage.com/subscribe/post?u=68d44015522ea20374a7f3423&amp;id=01f827161c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-							<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Your email address" />
-							<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
-							</form>	
+						<form action="//medianest.us4.list-manage.com/subscribe/post?u=68d44015522ea20374a7f3423&amp;id=01f827161c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Your email address" />
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
+						</form>	
 				</div>
 				</div>
 		
