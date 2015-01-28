@@ -4,7 +4,7 @@
 .navbar-brand {
   padding:10px 15px 15px 15px;
 }
-.navbar.hero .navbar-collapse .navbar-nav .button {
+.navbar .navbar-collapse .navbar-nav .button {
   padding: 8px 18px;
   font-size: 15px;
   position: relative;
@@ -17,18 +17,44 @@
   }
 }
 @media (min-width: 768px) {
-  .hero #sign-in .button {
+  #sign-in .button {
     display:block;
   }
-  .hero #sign-in .link {
+  #sign-in .link {
     display:none;
   }
 }
 @media (max-width: 767px) {
-  .hero #sign-in .button {
+  #sign-in .button {
     display:none;
   }
-  .hero #sign-in .link {
+  #sign-in .link {
     display:block;
   }
+}
+
+.navbar.normal .navbar-collapse .navbar-nav .button {
+  top: 0px;
+}
+
+.navbar.normal .navbar-header .navbar-brand {
+  padding: 22px 15px;
+}
+
+#pricing #third-option .faq .header h3 {
+  margin-top: 107px;
+  font-size: 20px;
+  color: #454545;
+  text-align: left;
+}
+
+.black-logos img {
+  -webkit-filter: invert(80%);
+  -moz-filter: invert(80%);
+  filter: invert(80%);
+  height:40px;
+}
+
+#home #slider .slide-wrapper .slideshow .slide {
+
 }

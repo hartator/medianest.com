@@ -3500,47 +3500,45 @@ a:focus, button:focus {
           margin-bottom: 18px; }
         #services #tabs .sections .section p {
           line-height: 25px; }
-  #services #grid-first {
+  #home #grid-first {
     margin-top: 30px; }
-    #services #grid-first .header {
-      border-top: 1px solid #E6E6E8;
-      padding-top: 55px;
+    #home #grid-first .header {
       text-align: center; }
-      #services #grid-first .header h3 {
+      #home #grid-first .header h3 {
         font-size: 25px;
         color: #555C68;
         line-height: 25px;
         font-weight: 400;
         margin-bottom: 13px; }
-      #services #grid-first .header p {
+      #home #grid-first .header p {
         font-size: 16px;
         font-weight: 400;
         color: #888; }
-    #services #grid-first .sections {
+    #home #grid-first .sections {
       margin-top: 45px; }
-      #services #grid-first .sections .section {
+      #home #grid-first .sections .section {
         text-align: center; }
         @media (max-width: 991px) {
-          #services #grid-first .sections .section {
+          #home #grid-first .sections .section {
             margin-bottom: 40px; } }
-        #services #grid-first .sections .section .pic {
+        #home #grid-first .sections .section .pic {
           display: inline-block;
           padding: 15px;
           background: #f5f5f5;
           box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.45), inset 0px 0px 1px 1px white; }
-        #services #grid-first .sections .section .info {
+        #home #grid-first .sections .section .info {
           margin-top: 25px;
           text-align: center; }
           @media (min-width: 992px) {
-            #services #grid-first .sections .section .info {
+            #home #grid-first .sections .section .info {
               margin-left: 45px;
               width: 80%;
               text-align: left; } }
-          #services #grid-first .sections .section .info strong {
+          #home #grid-first .sections .section .info strong {
             font-weight: 500;
             font-size: 18px;
             color: #555; }
-          #services #grid-first .sections .section .info p {
+          #home #grid-first .sections .section .info p {
             color: #666;
             margin-top: 15px;
             line-height: 22px; }
@@ -4310,38 +4308,38 @@ a:focus, button:focus {
     font-size: 13px;
     color: #656565;
     margin-top: 23px; }
-  #pricing #first-option .faq {
+  #pricing #first-option {
     margin-top: 40px; }
-    #pricing #first-option .faq .header h3 {
+    #pricing #first-option .header h3 {
       font-size: 20px;
       color: #454545;
       text-align: left; }
-    #pricing #first-option .faq .questions {
+    #pricing .faq .questions {
       margin-top: 25px; }
-      #pricing #first-option .faq .questions .question {
+      #pricing .faq .questions .question {
         margin-bottom: 40px; }
         @media (min-width: 992px) {
-          #pricing #first-option .faq .questions .question {
+          #pricing .faq .questions .question {
             width: 90%; } }
-        #pricing #first-option .faq .questions .question strong {
+        #pricing .faq .questions .question strong {
           font-weight: 500;
           font-size: 16px;
           color: #454545; }
-        #pricing #first-option .faq .questions .question p {
+        #pricing .faq .questions .question p {
           color: #555;
           margin-top: 10px;
           font-size: 13px;
           line-height: 22px; }
-  #pricing #first-option .contact {
+  #pricing #third-option .contact {
     margin-top: 40px; }
-    #pricing #first-option .contact .wrapper {
+    #pricing #third-option .contact .wrapper {
       background: #F7F8FB;
       border: 1px solid #EAEDF7;
       border-radius: 8px;
       padding: 25px 60px;
       box-shadow: inset rgba(100, 100, 100, 0.25) 0 1px 1px;
       margin: 0 auto; }
-    #pricing #first-option .contact h4 {
+    #pricing #third-option .contact h4 {
       font-size: 15px;
       position: relative;
       color: #696E72;
@@ -4349,16 +4347,16 @@ a:focus, button:focus {
       font-weight: 500;
       text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
       @media (max-width: 991px) {
-        #pricing #first-option .contact h4 {
+        #pricing #third-option .contact h4 {
           line-height: 26px; } }
-      #pricing #first-option .contact h4 span {
+      #pricing #third-option .contact h4 span {
         position: absolute;
         font-size: 23px;
         top: -5px;
         left: 72px;
         color: #626E7A; }
         @media (max-width: 991px) {
-          #pricing #first-option .contact h4 span {
+          #pricing #third-option .contact h4 span {
             position: relative;
             left: 0px;
             top: 5px; } }
