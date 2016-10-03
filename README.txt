@@ -1,7 +1,7 @@
 # Official Site
 
 http://medianest.com
-[Video Distribution](http:///medianest.com)
+[Video Distribution](http://medianest.com)
 
 Hi, I hope you find this theme useful!
 
